@@ -1,0 +1,10 @@
+horizontalslider\HorizontalSliderTests.class
+keys\KeysTests.class
+forgotpassword\ForgotPasswordTests.class
+login\LoginTests.class
+hover\HoverTests.class
+base\BaseTests.class
+contextmenu\ContextMenuTests.class
+fileupload\FileUploadTests.class
+alert\AlertTests.class
+dropdown\DropdownTests.class

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="fileupload.FileUploadTests">
+        <methods>
+          <include name="testFileUpload"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- fileupload.FileUploadTests -->
+      <class name="keys.KeysTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testPi"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- keys.KeysTests -->
+      <class name="alert.AlertTests">
+        <methods>
+          <include name="testConfirmAccept"/>
+          <include name="testPrompt"/>
+          <include name="testAlert"/>
+          <include name="setUp"/>
+          <include name="testConfirm"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- alert.AlertTests -->
+      <class name="horizontalslider.HorizontalSliderTests">
+        <methods>
+          <include name="setHorizontalSlideRange"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- horizontalslider.HorizontalSliderTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

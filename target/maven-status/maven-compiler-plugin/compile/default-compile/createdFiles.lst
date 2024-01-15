@@ -1,0 +1,13 @@
+pages\LoginPage.class
+pages\SecurePage.class
+pages\HomePage.class
+pages\HorizontalSliderPage.class
+testautomationu\Main.class
+pages\HoversPage.class
+pages\AlertsPage.class
+pages\ForgotPasswordPage.class
+pages\ContextMenuPage.class
+pages\DropdownPage.class
+pages\FileUploadPage.class
+pages\HoversPage$FigureCaption.class
+pages\KeyPressesPage.class
